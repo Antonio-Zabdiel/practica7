@@ -28,10 +28,13 @@ int main()
     printf("n1 \t| %p \t| %p \t| %p \t| %d \t|", &n1, &ptr_n, ptr_n, *ptr_n);
     printf("f1 \t| %p \t| %p \t| %p \t| %0.2f \t|", &f1, &ptr_f, ptr_f, *ptr_f);
     
-
     ptr_c = &c2;
     ptr_n = &n2;
     ptr_f = &f2;
+
+    printf("c2 \t| %p \t| %p \t| %p \t| %c \t|", &c2, &ptr_c, ptr_c, *ptr_c);
+    printf("n2 \t| %p \t| %p \t| %p \t| %d \t|", &n2, &ptr_n, ptr_n, *ptr_n);
+    printf("f2 \t| %p \t| %p \t| %p \t| %0.2f \t|", &f2, &ptr_f, ptr_f, *ptr_f);
 
     return 0;
 }

@@ -23,7 +23,7 @@ int main()
 
     //variable       | direccion de aountador       | conteniodo del apuntador       
     printf("variable\t| direccion de aountador\t| contenido del apuntador\t| contenido indirecto\t\n");
-    printf("==============================================================================================================================================================");
+    printf("======================================================================================================================================================\n");
     printf("c1 \t| %p \t| %p \t| %p \t| %c \t|", &c1, &ptr_c, ptr_c, *ptr_c);
     printf("n1 \t| %p \t| %p \t| %p \t| %d \t|", &n1, &ptr_n, ptr_n, *ptr_n);
     printf("f1 \t| %p \t| %p \t| %p \t| %0.2f \t|", &f1, &ptr_f, ptr_f, *ptr_f);

@@ -20,21 +20,20 @@ int main()
     ptr_c = &c1;
     ptr_n = &n1;
     ptr_f = &f1;
-
-    //variable       | direccion de aountador       | conteniodo del apuntador       
-    printf("variable\t| direccion de aountador\t| contenido del apuntador\t| contenido indirecto\t\n");
-    printf("======================================================================================================================================================\n");
-    printf("c1 \t| %p \t| %p \t| %p \t| %c \t|", &c1, &ptr_c, ptr_c, *ptr_c);
-    printf("n1 \t| %p \t| %p \t| %p \t| %d \t|", &n1, &ptr_n, ptr_n, *ptr_n);
-    printf("f1 \t| %p \t| %p \t| %p \t| %0.2f \t|", &f1, &ptr_f, ptr_f, *ptr_f);
+       
+    printf("variable\t| direccion de la variable\t| direccion de aountador\t| contenido del apuntador\t| contenido indirecto\t\n");
+    printf("======================================================================================================================================\n");
+    printf("c1 \t\t| %p \t\t| %p \t\t| %p \t\t| %c \t\n", &c1, &ptr_c, ptr_c, *ptr_c);
+    printf("n1 \t\t| %p \t\t| %p \t\t| %p \t\t| %d \t\n", &n1, &ptr_n, ptr_n, *ptr_n);
+    printf("f1 \t\t| %p \t\t| %p \t\t| %p \t\t| %0.2f \t\n", &f1, &ptr_f, ptr_f, *ptr_f);
     
     ptr_c = &c2;
     ptr_n = &n2;
     ptr_f = &f2;
 
-    printf("c2 \t| %p \t| %p \t| %p \t| %c \t|", &c2, &ptr_c, ptr_c, *ptr_c);
-    printf("n2 \t| %p \t| %p \t| %p \t| %d \t|", &n2, &ptr_n, ptr_n, *ptr_n);
-    printf("f2 \t| %p \t| %p \t| %p \t| %0.2f \t|", &f2, &ptr_f, ptr_f, *ptr_f);
+    printf("c2 \t\t| %p \t\t| %p \t\t| %p \t\t| %c \t\n", &c2, &ptr_c, ptr_c, *ptr_c);
+    printf("n2 \t\t| %p \t\t| %p \t\t| %p \t\t| %d \t\n", &n2, &ptr_n, ptr_n, *ptr_n);
+    printf("f2 \t\t| %p \t\t| %p \t\t| %p \t\t| %0.2f \t\n", &f2, &ptr_f, ptr_f, *ptr_f);
 
     return 0;
 }
